@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+main {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.2rem;
+  border-radius: 20px;
+  max-width: 20rem;
+  box-shadow: hsl(217, 54%, 5%) 0 30px 10px;
+}
+.card-image {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card-title :hover {
+  color: hsl(178, 100%, 50%);
+}
+.card-description {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 65%;
+  font-weight: lighter;
+}
+.card__infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card__infos__cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: hsl(178, 100%, 50%);
+}
+.card__infos__cost-text {
+  white-space: nowrap;
+}
+.card__infos__remaining {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card__infos__remaining__text {
+  white-space: nowrap;
+  color: hsl(215, 51%, 70%);
+}
+.card__creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.card__creator-image {
+  border: solid white 1px;
+  border-radius: 50px;
+  width: 2rem;
+  height: 2rem;
+}
+
+hr {
+  width: 100%;
+  opacity: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */
